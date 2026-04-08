@@ -1,0 +1,45 @@
+name: neurogate
+description: "NeuroGate — A cognitive app-blocker that trains your brain"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.4
+  installed_apps: ^1.5.0
+  fl_chart: ^0.68.0
+  confetti: ^0.7.0
+  flutter_local_notifications: ^17.2.2
+  share_plus: ^9.0.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.4.3
+  build_runner: ^2.4.11
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: FiraCode
+      fonts:
+        - asset: assets/fonts/FiraCode-Regular.ttf
+        - asset: assets/fonts/FiraCode-Bold.ttf
+          weight: 700
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+          weight: 700

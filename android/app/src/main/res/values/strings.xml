@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NeuroGate</string>
+    <string name="accessibility_service_description">NeuroGate uses accessibility to detect when blocked apps are opened, so it can present a brain challenge before granting access.</string>
+</resources>
